@@ -1,0 +1,489 @@
+﻿/**Este documento es la hoja de estilos para el html
+Autor: 1o9aa5
+Fecha: 1/10/2018
+**/
+
+
+/**General**/
+*{
+    margin:0px;
+    padding: 0px;
+}
+/**Estilo para los botones**/
+button{
+    height:40px;
+    width:40px;
+}
+
+/**Estilo de fuente para h1, h2, p, a, td, input**/
+h1,h2,p,a,td,input{
+font-family: 'Hind Guntur', sans-serif; 
+}
+/**Estilo h1**/
+h1{ text-transform:uppercase; 
+	color:#846F84;
+	font-size:42px;
+	text-decoration:none;
+	font-weight:22px;
+    
+}
+
+h3{
+    padding-top: 25px;
+    color:#846F84;
+    font-size:20px;
+    text-decoration:overline;
+}
+/**Estilo para el body tamaño y color**/
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color:#BFEB8F;
+}
+
+/** Cabecera **/
+header {
+    top:0px;
+    min-width:1100px;
+    width: 100%;
+    height: 160px;
+	background:#add67e;
+    margin: 0 auto;
+	overflow:hidden; 
+	display:block;
+}
+
+#head-left{
+    overflow:hidden;
+    display: inline;
+    height: 100%;
+}
+#head-right{
+   float:right;
+   width:250px;
+}
+#head-center{
+    width: 350px;
+    float:left;
+    
+}
+
+#divlogoprincipal{
+    padding-left: 5px;
+    padding-top: 5px;
+	width:42%;
+    height:100%;
+	float:left;
+    display:inline;
+}
+
+#logoprincipal{
+    width: 225px;
+    height: 157.5px;
+}
+
+#divtitulo{
+    
+    display: inline;
+    padding-left:65px;
+    height: 100%;
+}
+
+#divlogin{
+    display:block;
+    float: right;
+    padding-right: 10px;
+    padding-top: 80px;
+}
+#divlogin img{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -3px;
+}
+#dividioma{
+    padding-right: 10px;
+    float: right;
+    display: block;
+    
+}
+/**Cuerpo**/
+     
+#divprincipal{
+   
+    margin:0 auto;
+    float:inherit;
+    width: 65%;
+    display: block;
+}
+
+/*Seccion Contenidos textuales*/
+
+#contenido img{
+    float:left;
+    margin-right: 5px;
+    
+}
+#contenido p{
+    margin-right: 10px;
+    padding-right: 2px;
+    
+}
+#contenido h2{
+    text-align: center;
+}
+
+/*Seccion formulario ADD*/
+
+.formulario{
+    overflow: hidden;
+    background-color: #add67e;
+    width: 1000px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+
+.formulario h1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Hind Guntur', sans-serif;
+    text-align: center;
+    font-size:35px;
+	text-decoration:underline;
+    
+}
+
+.formulario div p{
+    margin-bottom: -5px;
+}
+.formulario input{
+    border: 0.5px solid #846F84;
+    border-radius: 3px;
+}
+
+.formulario input:hover{
+    background-color: #d1c8d1;
+    }
+
+.formulario div{
+    margin-left:15px;
+    margin-top:5px;
+}
+
+.formulario select{
+    border: 0.5px solid #846F84;
+    border-radius: 3px;
+}
+.formleft{
+    float:left;
+    width:210px;
+    padding-top: 2px;  
+}
+.formright{
+    float:right;
+    padding-right: 8px;  
+}
+.formright1{
+    float:right;
+    padding-right: 170px;/**vistazo a esto**/
+    
+}
+.formcenter{
+    float:left;
+    padding-top: 2px;
+    width:355px;
+}
+
+.formdownleft{
+    padding-bottom: 2px;
+    float:left;
+    width:413px;
+    overflow:hidden;
+}
+.formdowncenter{
+    float:left;
+}
+
+.formdownright{
+    padding-right: 130px;
+    float:right;
+}
+.enviar{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    width: 100%;
+    margin 0 auto;
+    text-align: center;
+}
+
+.enviar input{
+    width: 45px;
+    height: 30px;
+}
+
+.useradd{
+    margin:0 auto;
+}
+#useradd{
+    padding-top: 15px;
+    margin:0 auto;
+}
+#useradd h2{
+    margin-bottom:10px;
+}
+
+/*Seccion formulario SEARCH*/
+
+#usersearch{
+    padding-top: 15px;
+    
+}
+#usersearch h2{
+    margin-bottom: 10px;
+}
+
+/*Seccion formulario EDIT*/
+#useredit{
+    padding-top: 15px;
+    
+}
+#useredit h2{
+    margin-bottom: 10px;
+}
+
+/**Tamaño iconos de buscar y añadir de showall**/
+#searchadd{
+    width:35px;
+    height:35px;
+}
+/*Showall*/
+
+
+.showall{
+    padding-top: 15px;
+
+}
+.showall h2{
+    margin-bottom: 10px;
+}
+.showall img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px; 
+}
+.showallicons{
+    padding-top: 4px;
+    padding-right: 2px;
+    margin-left: -86px;    
+    float: right
+}
+
+.tabla{
+    overflow: hidden;
+    background-color: #add67e;
+    width: 1000px;
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.tabla table{
+    margin: 0 auto;
+    font-family: 'Hind Guntur', sans-serif;
+}
+
+.tabla h1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Hind Guntur', sans-serif;
+    text-align: center;
+    font-size:35px;
+	text-decoration:underline;
+}
+
+.tabla table td{
+    border-top: 1.5px dotted #846F84;
+    width: 150px;
+    text-align: center;
+}
+
+.tabla table td, th{
+    padding-left: 25px;
+    margin-right: 25px;
+}
+ 
+
+/**Seccion Delete**/
+#delete{
+    padding-top: 15px;
+}
+#delete h2{
+    margin-bottom: 10px;
+}
+
+.deleteicons{
+    padding-top: 4px;
+    padding-right: 2px;
+    margin-left: -76px;    
+    float: right
+}
+
+/**tabla delete**/
+.tabledelete{
+    overflow: hidden;
+    background-color: #add67e;
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+    float:none;
+}
+
+.tabledelete table{
+    font-family: 'Hind Guntur', sans-serif;
+    margin-left: 270px;
+}
+.tabledelete h1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Hind Guntur', sans-serif;
+    text-align: center;
+    font-size:35px;
+	text-decoration:underline;
+}
+
+.tabledelete table td{
+    border-top: 1.5px dotted #846F84;
+    width: 250px;
+    text-align: center;
+}
+
+.tabledelete table td, th{
+    padding-left: 25px;
+    margin-right: 25px;
+}
+
+/**Showcurrent**/
+
+#showcurrent{
+    padding-top: 15px;
+}
+#showcurrent h2{
+    margin-bottom: 10px;
+}
+
+.showcurrent{
+    overflow: hidden;
+    background-color: #add67e;
+    width: 1000px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+    float:none;
+}
+
+.showcurrent table{
+    font-family: 'Hind Guntur', sans-serif;
+    margin-left: 270px;
+}
+.showcurrent h1 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Hind Guntur', sans-serif;
+    text-align: center;
+    font-size:35px;
+	text-decoration:underline;
+}
+.showcurrent h2{
+    text-align: center;
+    font-size:25px;
+    
+}
+
+.showcurrent table td{
+    border-top: 1.5px dotted #846F84;
+    width: 250px;
+    text-align: center;
+}
+
+.showcurrent table td, th{
+    padding-left: 25px;
+    margin-right: 25px;
+}
+
+/**tamaño fijo de inputs para otros navegadores**/
+#emailadd{
+    width: 347.4px;
+    height: 26.6px;
+    
+}
+#emailedit{
+    width: 347.4px;
+    height: 26.6px;
+
+}
+
+/**Menu desplegable**/
+ul{ 
+    width:1000px;
+    margin:0 auto; 
+    list-style:none; 
+    overflow:hidden;
+}
+
+.nav > li{
+    
+    float:left;  
+    text-align:center;
+    padding:5px 0 5px 0;
+}
+
+.nav li a {
+   background-color:#846F84;
+   color:#000;
+   text-decoration:none;
+   padding:10px 12px;
+   display:block;
+   border-radius:1px;
+   width:220px; 
+}
+
+.nav li a:hover {
+   background-color:#a090a0;
+}
+
+.nav li ul {
+   display:none;
+   position:absolute;
+   min-width:220px;
+}
+
+.nav li:hover > ul {
+   display:block;
+}
+
+.nav li ul li {
+   position:relative;
+}
+
+.nav li ul li ul {
+   right:-140px;
+   top:0px;
+}
+
+
+/**Pie**/
+.footer{
+	clear:both;
+	margin-top:2%;
+	background-color:#add67e;
+	width:100%;
+    height: 160px;
+	text-align:center;
+	color:#000;
+
+	}
